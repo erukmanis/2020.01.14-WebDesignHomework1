@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+}
+
+.backgroundTop {
+  height: 100vh;
+  top: 0;
+  background: url(/styles/bg.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+
+.menuIcon {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  font-size: 40px;
+}
+
+.align {
+  padding-top: 280px;
+}
+
+.middleSection {
+  width: 960px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.floatBoxOne,
+.floatBoxTwo {
+  margin-top: 100px;
+}
+
+.leftSection {
+  width: 40%;
+  display: inline-block;
+  margin: 30px;
+}
+
+.rightSection {
+  width: 40%;
+  display: inline-block;
+}
+
+.imageSmall {
+  width: 60%;
+  float: left;
+}
+
+.backgroundFooter {
+  background: url(/styles/footer.jpg) no-repeat center;
+  background-size: cover;
+  height: 578px;
+  margin-top: 100px;
+}
+
+.textLeft {
+  width: 40%;
+  margin: 30px;
+}
+
+.navSection,
+footer,
+.button,
+.menuIcon {
+  background-color: sandybrown;
+}
+
+h2 {
+  color: sandybrown;
+  font-size: 2.3em;
+  padding-top: 10%;
+}
+
+p {
+  font-size: 1.2em;
+  padding-top: 10%;
+}
+
+header {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  color: white;
+  font-size: 70px;
+  text-shadow: 3px 3px 3px rgb(202, 202, 202);
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 2px rgb(202, 202, 202);
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.navSection {
+  text-align: center;
+}
+
+.navigation {
+  display: inline-block;
+  margin: 0px 40px 30px 40px;
+}
+
+footer {
+  box-shadow: 0px -5px 4px rgb(237, 155, 82);
+  padding: 30px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  height: 28px;
+  width: 150px;
+  border: sandybrown solid 2px;
+  border-radius: 20px;
+  transition-duration: 500ms;
+  text-align: center;
+  padding-top: 8px;
+  color: white;
+}
+
+.button:hover {
+  display: inline-block;
+  height: 28px;
+  width: 250px;
+  background-color: rgb(243, 146, 62);
+  border: sandybrown 2px solid;
+  border-radius: 20px;
+}
+
+.margin {
+  margin-top: 130px;
+}
+
+h3 {
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+ul,
+li {
+  list-style-type: none;
+  color: white;
+  padding: 5px;
+  font-size: 0.9em;
+}
+
+.menuIcon {
+  color: white;
+  padding: 5px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.floatBoxOne,
+.floatBoxTwo {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.textbox {
+  width: 40%;
+  display: inline-block;
+}
+
+.imagebox {
+  float: right;
+}
+
+footer {
+  color: white;
+  font-size: 0.5em;
+  text-align: center;
+}
